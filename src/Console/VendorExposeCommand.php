@@ -138,6 +138,12 @@ class VendorExposeCommand extends BaseCommand
         foreach (glob($search, GLOB_ONLYDIR) as $themePath) {
             yield $themePath;
         }
+
+        // Check all packges
+        $search = Util::joinPaths($basePath, 'packages', '*', '*');
+        foreach (glob($search, GLOB_ONLYDIR) as $themePath) {
+            yield $themePath;
+        }
     }
 
     /**

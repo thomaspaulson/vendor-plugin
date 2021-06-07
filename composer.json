@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/vendor-plugin",
+    "name": "thomaspaulson/vendor-plugin",
     "description": "Allows vendor modules to expose directories to the webroot",
     "type": "composer-plugin",
     "license": "BSD-3-Clause",
