@@ -1,10 +1,14 @@
-## SilverStripe Vendor Plugin
+## Laravel Package Plugin
+
+
 
 [![Build Status](https://api.travis-ci.com/silverstripe/vendor-plugin.svg?branch=1)](https://travis-ci.com/silverstripe/vendor-plugin)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/silverstripe/vendor-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/silverstripe/vendor-plugin/?branch=master)
 [![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
-When installing SilverStripe modules in the vendor directory it may also be necessary
+This module will help you expose asset in 'package/vendor/module'. This is based on 'silverstripe vendor plugin' module.
+
+When installing modules in the vendor directory it may also be necessary
 to ensure certain module assets are exposed to the webroot, as the 'vendor' url prefix
 is blocked from web-access by default.
 
